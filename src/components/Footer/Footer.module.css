@@ -1,0 +1,52 @@
+.bg {
+    background-color: var(--color-brown);
+}
+.container {
+    max-width: 130rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 2%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 50rem;
+}
+
+.infos p {
+    color: var(--color-text-white);
+}
+
+.infos h3 {
+    color: var(--color-yellow2);
+    text-transform: uppercase;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.menu ul li a {
+    color: var(--color-text-white);
+    transition: all .5s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: var(--color-yellow2);
+}
+
+.menu h3 {
+    color: var(--color-yellow2);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}

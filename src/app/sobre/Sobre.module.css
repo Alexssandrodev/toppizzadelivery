@@ -1,0 +1,30 @@
+.container {
+    max-width: 130rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 2%;
+}
+
+.container p {
+    color: var(--color-gray-semibold);
+    margin-bottom: 2rem;
+}
+
+.sobre {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.image {
+    flex-basis: 10rem;
+    background-color: #e3e3e3;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 1rem 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+
+.history {
+    flex: 1;
+}

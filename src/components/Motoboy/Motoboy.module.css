@@ -1,0 +1,23 @@
+.container {
+    max-width: 130rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 2%;
+}
+
+.motoboy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.infos p {
+    color: var(--color-gray-semibold);
+}

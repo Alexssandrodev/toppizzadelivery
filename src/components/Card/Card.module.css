@@ -1,0 +1,40 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30rem;
+    background-color: var(--card-bg);
+    border-radius: 1rem;
+}
+
+.card .infos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.infos p {
+    color: var(--color-gray-semibold);
+}
+
+.infos button {
+    width: 100%;
+}
+
+.card .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title h3 {
+    font-size: 1.6rem;
+    color: var(--color-gray-semibold);
+}
+
+.title span {
+    color: var(--color-red2);
+    font-weight: 700;
+    font-size: 1.6rem;
+}

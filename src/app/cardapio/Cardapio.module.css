@@ -1,0 +1,44 @@
+
+.container {
+    max-width: 130rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 2%;
+}
+
+.cardapio h3 {
+    font-size: 2.4rem;
+    color: var(--color-gray-semibold);
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.cardapio h2 {
+    color: var(--color-gray-semibold);
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.table {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.table thead tr th {
+    border-bottom: .1rem solid var(--color-gray-ligth);
+    padding-bottom: .5rem;
+    color: var(--color-yellow2);
+}
+
+.bg {
+    background-color: var(--card-bg);
+}
+
+
+.table tbody tr td {
+    padding: 1rem;
+    text-align: center;
+    color: var(--color-gray-semibold);
+}
+
